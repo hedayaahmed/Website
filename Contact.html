@@ -1,0 +1,97 @@
+<html>
+<head>
+          <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+
+    </head>
+    <body>
+        
+        <div class="header1">
+             <a href="home.html"><img  id="hlogo" href="home.html" src="../images/logo.png"></a>
+            <div class="si">
+                <a class="sign" href="sign.html">Sign in</a>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        
+        
+<div id="map" style="width:100%;height:500px"></div>
+
+<script>
+function myMap() {
+    
+  var myCenter = new google.maps.LatLng(29.9566772,30.9580327);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 16};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>      
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpovmaxYoG34eWAhF2vuzPJDVdvJepi8E&callback=myMap"></script>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="ContactUs">
+            <table id="CU">
+                <tr>
+                    <td></td>
+                    <td><p style="font-weight: bold;">CONTACT US USING THE FORM BELOW</p></td>
+                </tr>
+                <tr >
+                   <td>E-mail</td>
+                   <td class="CITD"><input class="CI" type="email"></td>
+                </tr>
+                <tr >
+                   <td>Name</td>
+                   <td class="CITD" ><input class="CI" type="text"></td>
+                </tr>
+                <tr>
+                   <td>Message</td>
+                    <td class="CITD"><textarea class="CIM"></textarea></td>
+                </tr>
+                <tr >
+                    <td></td>
+                    <td class="CITD"><button class="CIB">Submit</button></td>
+                </tr>
+            </table>
+                    
+        </div>
+        <br>
+        <br>
+        <div id="footer">
+            <table id="table_footer">
+                <tr>
+                    <td class="footer_td">
+                        <h4>ABOUT LYNKS</h4>
+                        <p><a href="home.html">Home</a></p>
+                        <p><a href="terms.html">Terms &amp; Conditions</a></p>
+                    </td>
+                    <td class="footer_td">
+                        <h4>CONTACT US</h4>
+                        <p><a href="Contact.html">Contact</a></p>
+                    </td>
+                    <td class="footer_td">
+                        <h4>CONTACT INFORMATION</h4>
+                        <p>Facebook Messenger:</p>
+                        <p><a target="_blank" href="https://m.me/lynksglobal">m.me/lynksglobal</a></p>
+                        <p>Working hours:</p>
+                        <p>Saturday to Thursday, 10 AM - 6 PM</p>
+                    </td>
+                    <td class="footer_td">
+                        <h4>YOU CAN PAY USING</h4>
+                         <img src="../images/payment_methods_footer_final-43b9c921347e009b36104435d4846113.png">
+                    </td> 
+                </tr>
+            </table> 
+        </div>
+    </body>
+</html>

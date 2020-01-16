@@ -1,0 +1,379 @@
+body{
+    text-align: center;
+    margin: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.logos{
+    margin: 50;
+    height: 100;
+    width: 200;
+    
+}
+
+#picblock{
+    display: block;
+}
+#websites{
+    display:inline;
+}
+.si{
+    margin-top: 5;
+    margin-right: 30;
+    text-align: right;
+}
+.sign{
+    color: white;
+    font-size: 20;
+    margin-top:12.5;
+}
+img{
+    height:50;
+    
+}
+.hov{
+    background-color: orange;
+    font-size: 25;
+    padding: 10;
+    font-family:Impact, Charcoal, sans-serif;
+    color: white;
+    border-radius: 50px;
+}
+h1{
+    font-size: 40;
+}
+h3{
+    font-size: 25;
+}
+.txtbox{
+    
+    font-size: 20;
+    font-family:sans-serif;
+    color: gray;
+    border-radius: 10px;
+    margin: 15;
+    width: 1000px;
+    height: 50;
+}
+.badbutton{
+    text-align: center;
+}
+button:hover{
+    background-color:darkorange;
+}
+#hlogo{
+    float: left;
+}
+.header{
+    
+    background-image: url(../images/banner.jpg);
+    background-size: cover; 
+    background-blend-mode: darken;
+    padding-left:20;
+    padding-right:20;
+    padding-top:10;
+    padding-bottom: 150;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-size: 30;
+}
+.logo2{
+    text-align: center;
+}
+
+#box_comp{
+    background-color:lightcyan;
+    padding: 20px;
+}
+#features{
+    padding:20px;
+}
+.box_compblue{
+    background-color:deepskyblue;
+    color: white;
+    text-align: center;
+    font-size: 15;
+    border-radius: 10px;
+    height: 100px ;
+    width: 200px;
+    border: solid 2px blue;
+}
+
+.comp{
+    text-align: center;
+    font-size: 25;
+    border-radius: 10px;
+    height: 100px ;
+    width: 200px;
+    border: solid 2px blue;
+    font-weight: bold;
+}
+.box_logo{
+    border-radius: 10px;
+    height: 100px ;
+    width: 200px;
+    border: solid 2px blue;
+    text-align: center;
+    
+}
+#company{
+    text-align: center;
+}
+.box_compgrey{
+    background-color:lightgrey;
+    color: white;
+    text-align: center;
+    font-size: 15;
+    border-radius: 10px;
+    height: 100px ;
+    width: 200px;
+    border: solid 2px blue;
+}
+#table_comp{
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+    
+}
+#footer{
+    background-color: dimgrey;
+    padding: 10;
+}
+#table_footer{
+    vertical-align: top;
+}
+.footer_td{
+    color: white;
+    vertical-align: top;
+    padding: 20;
+    padding-left: 100;
+    padding-right: 100:
+    font-family: sans-serif;
+}
+.footer_td>p{
+    
+    margin: 0;
+    
+}
+.header1{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    padding: 15;
+    background-color: dimgrey;
+}
+#TXT{
+    text-align: left;
+    padding: 100;
+}
+#TXT>h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20;
+}
+#TXT>h3{
+    text-align: center;
+    font-size: 30;
+}
+#TXT>p{
+    margin-top: 0;
+    margin-bottom: 30;
+}
+.footer_td>p>a{
+    color: white;
+    text-decoration: none;
+}
+.footer_td>p>a:hover{
+    text-decoration: underline;
+}
+.tdimg{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+/*User CSS*/
+#HeaderUser{
+    margin-top: 20;
+}
+#PasswordReset{
+    text-align: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+#PasswordReset>h4{
+    margin-bottom: 0;
+}
+#PasswordReset>p{
+    margin-top: 7;
+}
+#PasswordReset>input{
+    width: 360;
+    border-radius: 5px;
+    height: 30;
+    font-size: 20px;
+}
+#PasswordReset>input:focus{
+    outline: none;
+    border-color: darkorange;
+}
+#RP{
+    background-color: orange;
+    font-size: 15;
+    padding: 10;
+    font-family: inherit;
+    color: white;
+    border-radius: 10px;
+}
+#RP:hover{
+    background-color: darkorange;
+}
+#RTLP{
+    background-color: white;
+    font-size: 15;
+    padding: 10;
+    font-family: inherit;
+    color: darkslategrey;
+    border-radius: 10px;
+}
+#RTLP:hover{
+    
+    color: darkorange;
+    outline: none;
+    border-color:darkorange;
+}
+#SIGNIN{
+    text-align: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+#SIGNIN>input{
+    width: 100%;
+    border-radius: 5px;
+    height: 30;
+    font-size: 20px;
+}
+#SIGNIN>h4{
+    margin-bottom: 5;
+}
+#SIGNIN>input:focus{
+    outline: none;
+    border-color: darkorange;
+}
+#SI{
+    width: 100%;
+    background-color: orange;
+    font-size: 15;
+    padding: 10;
+    font-family: inherit;
+    color: white;
+    border-radius: 10px;
+}
+#SI:hover{
+    background-color: darkorange;
+}
+#FYP{
+    color: orange;
+    text-decoration: none;
+}
+#FYP:hover{
+    text-decoration: underline;
+}
+#JUN{
+    color: orange;
+    text-decoration: none;
+}
+#JUN:hover{
+    text-decoration: underline;
+}
+
+
+
+#NEWUSER{
+    text-align: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+#NEWUSER>input{
+    width: 100%;
+    border-radius: 5px;
+    height: 35;
+    font-size: 20px;
+}
+#NEWUSER>h4{
+    margin-bottom: 5;
+}
+#NEWUSER>input:focus{
+    outline: none;
+    border-color: darkorange;
+}
+
+
+#ContactUs{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+
+#ContactUs h4{
+    margin-bottom: 5;
+}
+#ContactUs input:focus{
+    outline: none;
+    border-color: darkorange;
+}
+#ContactUs textarea:focus{
+    outline: none;
+    border-color: darkorange;
+}
+.CI{
+    width: 100%;
+    border-radius: 5px;
+    height: 35;
+    font-size: 20px;
+}
+.CIB{
+    width: 100%;
+    border-radius: 5px;
+    height: 35;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+}
+.CIM{
+    width: 100%;
+    border-radius: 5px;
+    height: 35;
+    font-size: 20px;
+    height: 100;
+}
+.CITD{
+    width: 600;
+}
+#CU{
+   border-spacing: 30px 30px; 
+}
+/*
+<div class="header1" style="background-color: black;">
+             <a href="home.html"><img href="home.html" src="images/logo.png"></a>
+            <div class="si">
+                <a class="sign" href="sign.html">Sign in</a>
+            </div>
+        </div>
+*/

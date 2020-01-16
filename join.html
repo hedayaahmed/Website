@@ -1,0 +1,37 @@
+<html>
+    <head>
+          <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+
+    </head>
+    <body>
+        <div id="HeaderUser">
+            <a href="home.html"><img  href="home.html" src="../images/logoUser.png"></a>
+
+        </div>
+        <br>
+        <br>
+        <h3 style="font-family: sans-serif;">NEW USER</h3>
+        
+        <div id="NEWUSER">
+            <h4>Full name</h4>
+            <input id="name" placeholder="First and last name"type="text">
+            <h4>Email address</h4>
+            <input id="mail" placeholder="Email adress" type="email">
+            <h6 id="emailalert"></h6>
+            <h4>Password</h4>
+           <input id="pw" type="password">
+             <h4>Password confirmation</h4>
+           <input id="pwc" type="password">
+            <h6 id="passalert"></h6>
+             <h4>Mobile Number</h4>
+           <input id="mob" placeholder="Mobile Number" type="number">
+            <br>
+            <br>
+            <br>
+            <button id="SI" onclick="Insert();">Create Account</button>
+        </div>
+        <br>
+        <p style="font-family: sans-serif;">Already have a Lynks account? <a id="JUN" href="sign.html">Sign In</a></p>
+        <script src="userjs.js"></script>
+    </body>
+</html>
